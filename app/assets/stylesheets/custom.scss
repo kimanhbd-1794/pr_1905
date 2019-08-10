@@ -160,3 +160,9 @@ input, textarea, select, .uneditable-input {
 input {
   height: auto !important;
 }
+@mixin box_sizing {
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
+}
+/* miscellaneous */
